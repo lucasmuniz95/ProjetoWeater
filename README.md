@@ -17,4 +17,9 @@ Márcio Alex <br/>
 Larissa Maria. <br/>
 Lucas Muniz. <br/>
 Matheus Lemos. <br/>
-Maíra Nathalia.
+Maíra Nathalia. <br/>
+
+### Responsabilidades
+Larissa Maria e Maíra Nathalia - Reponsáveis pela pesquisa da documentação no site wheatherapi. <br/>
+Márcio Alex, Lucas Muniz e Matheus Lemos - Responsáveis pela estruturação da aplicação. <br/>
+Todos participaram da regra de negócio.
