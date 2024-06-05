@@ -1,0 +1,9 @@
+on: push
+name: Push sem atualizar servidor
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🚚 Get latest code
+        uses: actions/checkout@v4
