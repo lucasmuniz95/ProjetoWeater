@@ -1,5 +1,57 @@
 # Aplicativo de consumo da API weatherapi
 
+## Índice
+
+1. [Pré-requisitos](#pré-requisitos)
+2. [Instalação](#instalação)
+3. [Executando a Aplicação](#executando-a-aplicação)
+4. [Uso](#uso)
+5. [Equipe ](#equipe )
+
+## Pré-requisitos
+
+Antes de começar, certifique-se de que você atendeu aos seguintes requisitos:
+
+- Docker instalado em sua máquina.
+- Configuração funcional do Expo CLI para desenvolvimento em React Native.
+- Um emulador móvel configurado (por exemplo, Android Studio ou iOS Simulator).
+
+## Instalação
+
+Para instalar e configurar o aplicativo Newsflash, siga estas etapas:
+
+1. **Clone o repositório:**
+
+    ```bash
+    git clone <url-do-repositorio>
+    ```
+
+2. **Navegue até o diretório do projeto:**
+
+    ```bash
+    cd ProjetoWeater
+    ```
+    
+3. **Instalar e atualizar as dependencias do projeto
+   ```bash
+    yarn install
+    ```
+
+4. **Construa e inicie o container Docker:**
+
+    ```bash
+    docker-compose up -d
+    ```
+5. **Execute o expo dentro do docker e escaneie o qrcode
+   ```bash
+    docker exec -it <nome_do_container_app1> yarn start
+    ```
+   obs: para pegar o nome do container só rodar o
+   ```bash
+   docker ps
+   ```
+   que aparece a lista dos containers
+
 A API traz uma solução de mostrar a temperatura local atual, além da condição e um icone ilustrativo.
 
 ## fetch
@@ -23,3 +75,8 @@ Maíra Nathalia. <br/>
 Larissa Maria e Maíra Nathalia - Reponsáveis pela pesquisa da documentação no site wheatherapi. <br/>
 Márcio Alex, Lucas Muniz e Matheus Lemos - Responsáveis pela estruturação da aplicação. <br/>
 Todos participaram da regra de negócio.
+
+
+
+
+
